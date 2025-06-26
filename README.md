@@ -109,15 +109,19 @@ Durante o desenvolvimento deste projeto, foram aplicados conceitos importantes c
 
 Desenvolvido por:
 [Marcio Luiz](https://www.linkedin.com/in/marcioluiz-multicloud/)\
-📧 Para contato: [marcio.asriel@gmail.com](mailto\:marcio.asriel@gmail.com)
+📧 Para contato: [marcio.asriel@gmail.com](mailto\:marcio.asriel@gmail.com).
+
 [Thiago]()\
-📧 Para contato: []()
+📧 Para contato: []().
+
 [Lucas]()\
-📧 Para contato: []()
+📧 Para contato: []().
+
 [Luiz]()\
-📧 Para contato: []()
+📧 Para contato: []().
+
 [Guilherme Marcondes](https://www.linkedin.com/in/guilhermempereira80/)\
-📧 Para contato: [marcondespereiraguilherme@gmail.com](mailto\:marcondespereiraguilherme@gmail.com)
+📧 Para contato: [marcondespereiraguilherme@gmail.com](mailto\:marcondespereiraguilherme@gmail.com).
 ---
 
 ## 📝 Licença

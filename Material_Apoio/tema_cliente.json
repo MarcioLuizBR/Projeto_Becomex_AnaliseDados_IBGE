@@ -1,0 +1,16 @@
+{
+    "name": "Tema Cliente",
+    "dataColors": [
+        "#4FC3F7",
+        "#1976D2",
+        "#0D47A1",
+        "#AED581",
+        "#7CB342",
+        "#8E24AA",
+        "#FB8C00",
+        "#000000"
+    ],
+    "background": "#FFFFFF",
+    "foreground": "#000000",
+    "tableAccent": "#9C27B0"
+}

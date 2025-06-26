@@ -122,8 +122,8 @@ Desenvolvido por:
 [Guilherme Marcondes](https://www.linkedin.com/in/guilhermempereira80/)\
 📧 Para contato: [marcondespereiraguilherme@gmail.com](mailto\:marcondespereiraguilherme@gmail.com).
 
-[Luiz Felipe]()\
-📧 Para contato: [](mailto\:).
+[Luiz Felipe](https://www.linkedin.com/in/luiz-felipe-rolim-75318a138)\
+📧 Para contato: [lf.rolim@hotmail.com](mailto\:lf.rolim@hotmail.com).
 
 ---
 

@@ -25,7 +25,7 @@ O objetivo deste projeto é demonstrar a aplicação prática do processo de **E
 Projeto_Becomex_AnaliseDados_IBGE/
 │
 ├── dados/                           # Dados brutos e processados
-│   ├── Base Inicial do BaixaSidra/
+│   ├── Base Inicial BaixaSidra/
 │   └── Base tratada
 ├── material apoio/                  # Capturas do dashboard e gráficos
 │   ├── imagens/
@@ -37,9 +37,10 @@ Projeto_Becomex_AnaliseDados_IBGE/
 ├── powerBI/                         # Arquivos .pbix do dashboard
 │   └── Dash_Becomex_grupo04
 ├── src/                             # Scripts Python para extração e manipulação
+│   └── BaixaSidra/
 ├── .gitattributes
 ├── Apresentação Final - Grupo04.pptx
-├── Documentação Técnica do Projeto.docx
+├── Documentação Técnica Projeto.docx
 ├── LICENSE
 ├── README.md                        # Este arquivo
 └── requisitos.txt                   # dependências do projeto
@@ -108,16 +109,17 @@ Durante o desenvolvimento deste projeto, foram aplicados conceitos importantes c
 ## 👨‍💼 Autores
 
 Desenvolvido por:
-[Marcio Luiz](https://www.linkedin.com/in/marcioluiz-multicloud/)\
+
+[Márcio Luiz](https://www.linkedin.com/in/marcioluiz-multicloud/)\
 📧 Para contato: [marcio.asriel@gmail.com](mailto\:marcio.asriel@gmail.com).
 
-[Thiago]()\
+[Thiago Lira]()\
 📧 Para contato: []().
 
-[Lucas]()\
+[Lucas Silva]()\
 📧 Para contato: []().
 
-[Luiz]()\
+[Luiz Felipe]()\
 📧 Para contato: []().
 
 [Guilherme Marcondes](https://www.linkedin.com/in/guilhermempereira80/)\

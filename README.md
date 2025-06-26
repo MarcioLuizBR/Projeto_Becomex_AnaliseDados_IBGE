@@ -113,17 +113,18 @@ Desenvolvido por:
 [Márcio Luiz](https://www.linkedin.com/in/marcioluiz-multicloud/)\
 📧 Para contato: [marcio.asriel@gmail.com](mailto\:marcio.asriel@gmail.com).
 
-[Thiago Lira]()\
-📧 Para contato: []().
+[Thiago Lira](https://www.linkedin.com/in/thiagolsantoss/)\
+📧 Para contato: [thi.lira01@hotmail.com](mailto\:thi.lira01@hotmail.com) ,  [github.com/thiagolir4](https://github.com/thiagolir4).
 
 [Lucas Silva]()\
-📧 Para contato: []().
-
-[Luiz Felipe]()\
-📧 Para contato: []().
+📧 Para contato: [](mailto\:).
 
 [Guilherme Marcondes](https://www.linkedin.com/in/guilhermempereira80/)\
 📧 Para contato: [marcondespereiraguilherme@gmail.com](mailto\:marcondespereiraguilherme@gmail.com).
+
+[Luiz Felipe]()\
+📧 Para contato: [](mailto\:).
+
 ---
 
 ## 📝 Licença

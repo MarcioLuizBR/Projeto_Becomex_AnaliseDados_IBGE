@@ -116,8 +116,8 @@ Desenvolvido por:
 [Thiago Lira](https://www.linkedin.com/in/thiagolsantoss/)\
 📧 Para contato: [thi.lira01@hotmail.com](mailto\:thi.lira01@hotmail.com) ,  [github.com/thiagolir4](https://github.com/thiagolir4).
 
-[Lucas Silva]()\
-📧 Para contato: [](mailto\:).
+[Lucas Silva](https://www.linkedin.com/in/lucas-silva-814b76271)\
+📧 Para contato: [lucasfreitas.cs.b@gmail.com](mailto\:lucasfreitas.cs.b@gmail.com).
 
 [Guilherme Marcondes](https://www.linkedin.com/in/guilhermempereira80/)\
 📧 Para contato: [marcondespereiraguilherme@gmail.com](mailto\:marcondespereiraguilherme@gmail.com).

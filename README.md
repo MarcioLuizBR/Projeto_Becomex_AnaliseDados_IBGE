@@ -1,83 +1,80 @@
-# 📊 Projeto Becomex - Análise de Dados IBGE
+# 📊 Projeto Becomex — Análise de Dados do IBGE
 
-Este repositório apresenta um projeto completo de análise de dados com foco em informações extraídas do IBGE, abordando desde a coleta, tratamento e análise de dados até a visualização final em um dashboard interativo no Power BI.
+Este projeto apresenta uma solução completa de **análise de dados públicos do IBGE**, com foco em **produção agrícola**, abrangendo todo o pipeline de dados — da extração via API até a visualização final em **dashboard interativo no Power BI**.
 
-## 📌 Objetivo
-
-O objetivo deste projeto é demonstrar a aplicação prática do processo de **ETL (Extração, Transformação e Carga)** em dados públicos do IBGE, com foco em produção agrícola. As informações são organizadas e apresentadas de forma clara e estratégica para facilitar a tomada de decisão.
+O objetivo é transformar dados brutos em **insights claros e acionáveis para apoio à tomada de decisão**.
 
 ---
 
-## 🛠️ Tecnologias e Ferramentas Utilizadas
+## 🎯 Objetivo de Negócio
 
-- **Python**: Para extração e tratamento de dados.
-- **Pandas**: Manipulação e limpeza de dados.
-- **Power BI**: Criação de dashboards e visualizações interativas.
-- **APIs públicas (SIDRA/IBGE)**: Fonte dos dados utilizados.
-- **Jupyter Notebook / Colab**: Ambiente de desenvolvimento e testes.
-- **Git e GitHub**: Controle de versão e hospedagem do projeto.
+Demonstrar, na prática, a aplicação do processo de **ETL (Extração, Transformação e Carga)** utilizando dados públicos do IBGE, organizando e analisando informações de produção agrícola para:
+
+- identificar padrões e tendências
+- comparar desempenho entre regiões e estados
+- apoiar análises econômicas e estratégicas
 
 ---
 
-## 📂 Estrutura do Projeto
+## 🧩 Fonte de Dados
 
-```bash
+- **IBGE / SIDRA** — Produção Agrícola Municipal (PAM)  
+- Dados oficiais, públicos e amplamente utilizados em análises econômicas e setoriais
+
+---
+
+## 🏗️ Pipeline de Dados (ETL)
+
+1. **Extração**  
+   - Consumo da API REST do IBGE (SIDRA)
+2. **Transformação**  
+   - Limpeza, padronização e tratamento com Pandas
+   - Organização por cultura, estado, município e ano
+3. **Carga**  
+   - Dados tratados utilizados no Power BI para visualização
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Python** — extração e tratamento de dados  
+- **Pandas** — limpeza e transformação  
+- **API IBGE / SIDRA** — fonte dos dados  
+- **Power BI** — dashboards interativos  
+- **Jupyter Notebook / Google Colab** — desenvolvimento e testes  
+- **Git & GitHub** — versionamento e documentação  
+
+---
+
+## 📁 Estrutura do Projeto
+
+```
 Projeto_Becomex_AnaliseDados_IBGE/
 │
-├── dados/                           # Dados brutos e processados
+├── dados/
 │   ├── Base Inicial BaixaSidra/
-│   └── Base tratada
-├── material apoio/                  # Capturas do dashboard e gráficos
-│   ├── imagens/
-│   ├── dashboard1.png
-│   ├── dashboard2.png
-│   └── dashboard3.png
-├── notebooks/                       # Códigos de tratamento e exploração
-│   └── Tratamento_Dados_Colab
-├── powerBI/                         # Arquivos .pbix do dashboard
-│   └── Dash_Becomex_grupo04
-├── src/                             # Scripts Python para extração e manipulação
+│   └── Base tratada/
+│
+├── material apoio/
+│   └── imagens/
+│       ├── dashboard1.png
+│       ├── dashboard2.png
+│       └── dashboard3.png
+│
+├── notebooks/
+│   └── Tratamento_Dados_Colab.ipynb
+│
+├── powerBI/
+│   └── Dash_Becomex_grupo04.pbix
+│
+├── src/
 │   └── BaixaSidra/
-├── .gitattributes
+│
 ├── Apresentação Final - Grupo04.pptx
 ├── Documentação Técnica Projeto.docx
-├── LICENSE
-├── README.md                        # Este arquivo
-└── requisitos.txt                   # dependências do projeto
-
+├── requisitos.txt
+└── README.md
 ```
-
----
-
-## ⚙️ Como Executar o Projeto
-
-1. **Clone o repositório**:
-
-```bash
-git clone https://github.com/MarcioLuizBR/Projeto_Becomex_AnaliseDados_IBGE.git
-```
-
-2. **Instale as bibliotecas necessárias**:
-
-> Recomendado o uso de um ambiente virtual
-
-```bash
-pip install -r requisitos.txt
-```
-
-3. **Execute os notebooks** da pasta `notebooks/` para realizar a extração e o tratamento dos dados.
-
-4. **Abra o arquivo Power BI (.pbix)** localizado na pasta `powerBI/` para visualizar o dashboard com os dados tratados.
-
----
-
-## 📈 Resultados e Visualizações
-
-O dashboard interativo permite:
-
-- Comparar a produção agrícola por município.
-- Analisar o rendimento médio por hectare por estado.
-- Visualizar tendências e padrões em diferentes culturas agrícolas.
 
 > Capturas de tela do dashboard:
 
@@ -87,47 +84,77 @@ O dashboard interativo permite:
 
 ---
 
-## 🚀 Aprendizados
+## ▶️ Como Executar o Projeto
 
-Durante o desenvolvimento deste projeto, foram aplicados conceitos importantes como:
+1. Clone o repositório:
 
-- Acesso a dados públicos via API REST (IBGE/SIDRA).
-- Limpeza e padronização de dados com Pandas.
-- Análise exploratória de dados (EDA).
-- Criação de visualizações dinâmicas com Power BI.
+```bash
+git clone https://github.com/MarcioLuizBR/Projeto_Becomex_AnaliseDados_IBGE.git
+```
 
----
+2. Instale as dependências:
 
-## 📌 Próximos Passos
+```bash
+pip install -r requisitos.txt
+```
 
-- Refinamento visual do dashboard.
-- Inclusão de novas variáveis (ex: PIB, população).
-- Publicação online via Power BI Service.
-
----
-
-## 👨‍💼 Autores
-
-Desenvolvido por:
-
-[Márcio Luiz](https://www.linkedin.com/in/marcioluiz-multicloud/)\
-📧 Para contato: [marcio.asriel@gmail.com](mailto\:marcio.asriel@gmail.com).
-
-[Thiago Lira](https://www.linkedin.com/in/thiagolsantoss/)\
-📧 Para contato: [thi.lira01@hotmail.com](mailto\:thi.lira01@hotmail.com) ,  [github.com/thiagolir4](https://github.com/thiagolir4).
-
-[Lucas Silva](https://www.linkedin.com/in/lucas-silva-814b76271)\
-📧 Para contato: [lucasfreitas.cs.b@gmail.com](mailto\:lucasfreitas.cs.b@gmail.com).
-
-[Guilherme Marcondes](https://www.linkedin.com/in/guilhermempereira80/)\
-📧 Para contato: [marcondespereiraguilherme@gmail.com](mailto\:marcondespereiraguilherme@gmail.com).
-
-[Luiz Felipe](https://www.linkedin.com/in/luiz-felipe-rolim-75318a138)\
-📧 Para contato: [lf.rolim@hotmail.com](mailto\:lf.rolim@hotmail.com).
+3. Execute os notebooks da pasta `notebooks/` para realizar a extração e tratamento dos dados  
+4. Abra o arquivo **Power BI (.pbix)** na pasta `powerBI/` para visualizar o dashboard
 
 ---
 
-## 📝 Licença
+## 📈 Resultados e Visualizações
 
-Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais informações.
+O dashboard interativo permite:
 
+- comparar produção agrícola por município
+- analisar rendimento médio por hectare por estado
+- visualizar tendências por cultura agrícola
+- avaliar valor bruto da produção ao longo do tempo
+
+> As imagens do dashboard estão disponíveis na pasta `material apoio/imagens/`.
+
+---
+
+## 💡 Principais Insights
+
+- Identificação das culturas com maior participação no valor bruto da produção
+- Comparação regional de produtividade agrícola
+- Evolução da produção e rendimento ao longo dos anos analisados
+
+---
+
+## 🚀 Aprendizados Técnicos
+
+- Consumo de APIs públicas (REST)
+- Processos de ETL com Python
+- Análise exploratória de dados (EDA)
+- Modelagem de dados para BI
+- Construção de dashboards analíticos no Power BI
+
+---
+
+## 🔭 Próximos Passos
+
+- Refinamento visual do dashboard
+- Inclusão de novas variáveis (PIB, população, indicadores econômicos)
+- Publicação online via Power BI Service
+- Automatização do pipeline de atualização de dados
+
+---
+
+## 👨‍💻 Autores
+
+Projeto desenvolvido por:
+
+- **Marcio Luiz**  
+- Thiago Lira  
+- Lucas Silva  
+- Guilherme Marcondes  
+- Luiz Felipe  
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Consulte o arquivo LICENSE para mais informações.
